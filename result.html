@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMail Organizer - Results</title>
+</head>
+<body>
+    <h2>Email Categorization Results</h2>
+    <ul>
+        {% for email in emails %}
+            <li>Subject: {{ email.subject }}, Category: {{ email.category }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

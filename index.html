@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMail Organizer</title>
+</head>
+<body>
+    <h1>Email Categorization Tool</h1>
+    <form action="/process_emails" method="post">
+        <label for="subject">Email Subject:</label>
+        <input type="text" id="subject" name="subject" required><br>
+
+        <label for="content">Email Content:</label>
+        <textarea id="content" name="content" required></textarea><br>
+
+        <input type="submit" value="Categorize">
+    </form>
+</body>
+</html>
